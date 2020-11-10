@@ -1,0 +1,125 @@
+@import "../../config/variables";
+
+.experience {
+  padding: 180px 125px;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(31, 37, 37, 0.48),
+      rgba(13, 58, 56, 0.61)
+    ),
+    url("../../assets/images/exp.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.title {
+  color: $text-color2;
+  padding-bottom: 16px;
+  border-bottom: 1px solid $primary-color;
+  border-width: 3px;
+  margin-bottom: 25px;
+  width: 35vw;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+  .expDt {
+    color: $text-color2;
+    margin: 74px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 500;
+    width: 100%;
+  }
+}
+
+.expSection {
+  position: relative;
+  .expBlock {
+    background: #1b1b1b;
+    border-radius: 3px;
+    padding: 1.5em;
+    width: 40%;
+    opacity: 0.85;
+    margin: 20px;
+    h4 {
+      color: $text-color2;
+      margin-bottom: 8px;
+    }
+
+    h5 {
+      color: $primary-color;
+      margin-bottom: 4px;
+    }
+
+    p {
+      color: $text-color2;
+    }
+
+    p:last-child {
+      color: $text-color;
+      font-size: 18px;
+    }
+  }
+}
+
+.expSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(50% - 2px);
+  height: 100%;
+  width: 3px;
+  background: #00b7c7;
+}
+
+.flRight {
+  float: right;
+}
+
+.flAlign2 {
+  justify-content: flex-end;
+}
+
+.flAlign1 {
+  justify-content: flex-start;
+}
+
+@media (max-width: 990px) {
+  .experience {
+    padding: 60px 45px;
+  }
+
+  .title {
+    width: 75vw;
+  }
+
+  .expSection {
+    .expBlock {
+      width: 100%;
+    }
+  }
+
+  .expSection::before {
+    left: 0;
+  }
+
+  .row {
+    .expDt {
+      margin: 32px;
+    }
+  }
+
+  .flAlign2 {
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 990px) {
+  .experience {
+    padding: 60px 115px;
+  }
+}

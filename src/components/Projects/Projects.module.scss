@@ -1,0 +1,35 @@
+@import "../../config/variables";
+
+.projects {
+  padding: 180px 125px;
+}
+
+.title {
+  color: $text-color2;
+  padding-bottom: 16px;
+  border-bottom: 1px solid $primary-color;
+  border-width: 3px;
+  margin-bottom: 25px;
+  width: 35vw;
+}
+
+.otherProjects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.msg {
+  padding-left: 1.75%;
+  color: $text-color2;
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  .projects {
+    padding: 60px 45px;
+  }
+
+  .title {
+    width: 75vw;
+  }
+}

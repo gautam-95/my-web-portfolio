@@ -1,0 +1,11 @@
+.bgImg {
+  background-image: url("./assets/images/header-background.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+@media (max-width: 600px) {
+  .profilesDesktop {
+    display: none;
+  }
+}

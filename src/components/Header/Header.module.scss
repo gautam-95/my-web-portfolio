@@ -1,0 +1,147 @@
+@import "../../config/variables";
+
+.header {
+  color: $text-color;
+  padding: 0 50px;
+  display: flex;
+  justify-content: flex-end;
+  height: 15vh;
+  align-items: center;
+}
+
+.navigation {
+  display: block;
+  input {
+    display: none;
+  }
+
+  label {
+    background-color: $primary-color;
+    height: 3rem;
+    width: 3rem;
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    border-radius: 50%;
+    z-index: 2000;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .navigationBackground {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    position: fixed;
+    top: 2.5rem;
+    right: 2.5rem;
+    background-color: rgba(28, 46, 72, 0.8);
+    z-index: 1000;
+    transition: transform 0.75s ease-in-out;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1500;
+    opacity: 0;
+    width: 0;
+    transition: all 0.8s ease-in-out;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  a {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #7bf9d9;
+    margin: 0.75rem;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+    border-radius: 10px;
+    border: none;
+    &:hover {
+      color: #1c2e48;
+      background-color: $primary-color;
+      transform: translateY(-5px);
+      text-decoration: none;
+    }
+  }
+
+  input:checked ~ .navigationBackground {
+    transform: scale(100);
+  }
+
+  input:checked ~ nav {
+    opacity: 1;
+    width: 100%;
+  }
+
+  .navigationIcon {
+    position: relative;
+    margin-top: 1.5rem;
+    &,
+    &::before,
+    &::after {
+      width: 1.5rem;
+      height: 2px;
+      background-color: #333;
+      display: inline-block;
+    }
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      transition: all 0.2s;
+    }
+
+    &::before {
+      top: -0.5rem;
+    }
+
+    &:after {
+      top: 0.4rem;
+    }
+  }
+
+  label:hover .navigationIcon::before {
+    top: -0.6rem;
+  }
+
+  label:hover .navigationIcon::after {
+    top: 0.6rem;
+  }
+
+  input:checked + label .navigationIcon {
+    background-color: transparent;
+  }
+
+  input:checked + label .navigationIcon::before {
+    top: 0;
+    transform: rotate(135deg);
+  }
+
+  input:checked + label .navigationIcon::after {
+    top: 0;
+    transform: rotate(-135deg);
+  }
+}

@@ -1,0 +1,114 @@
+@import "../../../config/variables";
+
+.featuredProject {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px 0;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+
+  .sectionRight {
+    padding-left: 0;
+  }
+
+  .links {
+    justify-content: flex-start;
+  }
+}
+
+.sectionLeft {
+  flex: 0.5;
+  img {
+    width: 50vw;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+}
+
+.sectionRight {
+  padding-left: 5%;
+  flex: 0.5;
+  h4 {
+    color: $primary-color;
+  }
+
+  h1 {
+    color: $text-color2;
+    margin-bottom: 40px;
+  }
+
+  p {
+    color: $text-color;
+    margin-bottom: 40px;
+    border-left: 2px solid $primary-color;
+    padding-left: 2%;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  li {
+    color: $text-color;
+    border: 1px solid $primary-color;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+    &:hover {
+      background-color: #cacaca54;
+    }
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.linkIcon {
+  font-size: 20px;
+  color: $primary-color;
+  margin: 30px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out !important;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+@media (max-width: 990px) {
+  .sectionLeft {
+    flex: 1;
+    img {
+      width: 75vw;
+    }
+  }
+
+  .sectionRight {
+    flex: 1;
+    h4 {
+      margin-top: 20px;
+    }
+    padding-left: 0;
+    max-width: 275px;
+    li {
+      margin: 5px;
+    }
+  }
+
+  .links {
+    justify-content: flex-start;
+  }
+
+  .reverse {
+    flex-direction: row;
+  }
+}

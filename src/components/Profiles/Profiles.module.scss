@@ -1,0 +1,68 @@
+@import "../../config/variables";
+
+.profiles {
+  width: 40px;
+  position: fixed;
+  bottom: 140px;
+  left: 16px;
+  right: auto;
+}
+
+.myLogo {
+  height: 20px;
+  width: 20px;
+  color: $primary-color;
+  background-color: transparent;
+  border: 1px solid $primary-color;
+  padding: 10px;
+  border-radius: 120px;
+  cursor: pointer;
+  &:hover {
+    background-color: #636876;
+  }
+  // clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.profile {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  li {
+    margin: 20px 0;
+    color: $primary-color;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    .profileIcon:hover {
+      color: $text-color2;
+      // transform: translateY(-3px);
+      // transform: scale(1.2);
+    }
+  }
+  li:first-child {
+    position: fixed;
+    top: 12px;
+    left: 50px;
+  }
+}
+
+.profileIcon {
+  font-size: 30px !important;
+}
+
+@media (max-width: 600px) {
+  .profiles {
+    display: flex;
+    width: 100%;
+    position: static;
+  }
+
+  .profile {
+    width: 100%;
+    padding: 5% 0;
+    flex-direction: row;
+    justify-content: space-around;
+    li:first-child {
+     display: none;
+    }
+  }
+}

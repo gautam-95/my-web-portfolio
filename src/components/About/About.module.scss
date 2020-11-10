@@ -1,0 +1,71 @@
+@import "../../config/variables";
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 180px 125px;
+  animation: slideUp 1s ease-in-out;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.sectionLeft {
+  margin-right: 50px;
+  img {
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 5px;
+  }
+}
+
+.sectionRight {
+  width: 74%;
+  color: $text-color;
+  h2 {
+    color: $text-color2;
+    padding-bottom: 16px;
+    border-bottom: 1px solid $primary-color;
+    border-width: 3px;
+    margin-bottom: 25px;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+
+  div {
+    font-size: 18px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+@media (max-width: 600px) {
+  .about {
+    justify-content: center;
+    padding: 60px 25px;
+  }
+
+  .sectionLeft {
+    margin-right: 0;
+  }
+
+  // .sectionRight {
+  //   flex: 0.9;
+  // }
+}
