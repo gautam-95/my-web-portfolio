@@ -16,13 +16,22 @@ const Profiles = (props) => {
           <div className={classes.myLogo}>GP</div>
         </li>
         <li>
-          <GitHubIcon className={classes.profileIcon} />
+          <a href="https://github.com/gautam-95" target="_blank">
+            <GitHubIcon className={classes.profileIcon} />
+          </a>
         </li>
         <li>
-          <LinkedInIcon className={classes.profileIcon} />
+          <a
+            href="https://www.linkedin.com/in/gautamraj-puranik-711b3012a/"
+            target="_blank"
+          >
+            <LinkedInIcon className={classes.profileIcon} />
+          </a>
         </li>
         <li>
-          <MailIcon className={classes.profileIcon} />
+          <a href="mailto:gautam.puranik95@gmail.com">
+            <MailIcon className={classes.profileIcon} />
+          </a>
         </li>
       </ul>
     </div>

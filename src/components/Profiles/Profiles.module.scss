@@ -32,6 +32,9 @@
     color: $primary-color;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
+    a {
+      margin: 0;
+    }
     .profileIcon:hover {
       color: $text-color2;
       // transform: translateY(-3px);

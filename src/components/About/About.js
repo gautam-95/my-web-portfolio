@@ -13,19 +13,27 @@ const About = (props) => {
         <div>
           <p>Hello! I'm Gautam, a FullStack developer based in Pune, India.</p>
           <p>
-            Developing web apps is more of a hobby for me as I enjoy seing a
-            visual feedback of my code. I belive in keeping things simple and
-            aim to write efficient, clean and DRY code and to improve user
-            expererience.
+            Amazed by the power of user interfaces and curious to learn web
+            development, I started my career as a Web Developer around 3.5 years
+            back and have grown significantly as a professional.
           </p>
           <p>
-            I have been working with a dynamic startup -{" "}
-            <a href="https://www.riaadvisory.com/" target="_blank" rel="noreferrer">
-              {" "}
+            I believe in following a simplistic approach with a learning
+            attitude and aim to write efficient, clean, DRY code and enhance
+            user expererience.
+          </p>
+          <p>
+            I have been working with a dynamic startup -
+            <span>RIA Advisory</span>
+            {/* <a
+              href="https://www.riaadvisory.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               RIA Advisory
-            </a>{" "}
-            where I work on a wide variety of projects and exciting technologies
-            on a daily basis.
+            </a> */}
+            where I work on a wide range of interesting projects and exciting
+            technologies on a daily basis.
           </p>
         </div>
       </div>
@@ -34,3 +42,5 @@ const About = (props) => {
 };
 
 export default About;
+
+// and as a professional and to be Developing web apps is more of a hobby for me as I enjoy seing a visual feedback of my code.

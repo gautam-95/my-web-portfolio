@@ -12,7 +12,7 @@ const Header = (props) => {
   };
 
   return (
-    <div className={classes.header}>
+    <div id="home" className={classes.header}>
       <div className={classes.navigation}>
         <input type="checkbox" id="navi-toggle" ref={inputEl} />
         <label for="navi-toggle">
@@ -21,6 +21,16 @@ const Header = (props) => {
         <div className={classes.navigationBackground}>&nbsp;</div>
         <nav>
           <ul>
+          <Link
+              activeClass="active"
+              to="home"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              onClick={() => onLinkClick()}
+            >
+              Home
+            </Link>
             <Link
               activeClass="active"
               to="about"

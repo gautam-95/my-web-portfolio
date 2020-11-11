@@ -10,8 +10,8 @@ const Projects = (props) => {
     {
       name: "baskout",
       desc:
-        "A fully functional and responsive E-commerce application which accepts card payment. Built with modern React features",
-      tech: ["React", "Redux", "Node.js", "Express", "Stripe Payment"],
+        "A fully functional and responsive e-commerce application which accepts card payment. Integrated with Stripe.js and built with modern React features, it is a complete solution for an e-commerce application.",
+      tech: ["React", "Redux", "Node.js", "Express", "Stripe.js", "MongoDB"],
       gitLink: "https://google.com",
       appLink: "https://google.com",
       image: baskout2,
@@ -20,7 +20,7 @@ const Projects = (props) => {
       name: "Spotify Profile",
       desc:
         "A web app to view your Spotify playlists and songs. View information about your playlists alongwith detailed information about each track.",
-      tech: ["React", "React Context API", "Spotify Web API"],
+      tech: ["React", "Spotify Web API", "React Context API"],
       gitLink: "https://google.com",
       appLink: "https://google.com",
       image: spotify1,
@@ -29,16 +29,16 @@ const Projects = (props) => {
 
   const [otherProjects] = useState([
     {
-      name: "E-municipal corp app",
+      name: "E-complaint government app",
       desc:
-        "A MEAN stack enterprise project that was rewarded as the winner in the TIBCO Global Hackathon.",
+        "An Angular application that emerged as the winner in the TIBCO Global Hackathon. A complete solution for a citizen to lodge a complaint to a local body in few clicks.",
       tech: ["Angular", "NgRx", "RxJs"],
       gitLink: null,
       appLink: null,
     },
     {
       name: "My Posts",
-      desc: "A MEAN stack application with file upload feature to save posts",
+      desc: "A MEAN stack application with file upload feature and full user authentication to save posts",
       tech: ["Angular", "RxJs", "Node.js", "Express"],
       gitLink: "https://google.com",
       appLink: "https://google.com",

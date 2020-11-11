@@ -43,16 +43,18 @@
   }
 
   div {
-    font-size: 18px;
+    font-size: 16.5px;
   }
 }
 
-a {
+a,
+span {
   text-decoration: none;
   color: $primary-color;
-  &:hover {
-    text-decoration: underline;
-  }
+  margin: 0 8px;
+  // &:hover {
+  //   text-decoration: underline;
+  // }
 }
 
 @media (max-width: 600px) {

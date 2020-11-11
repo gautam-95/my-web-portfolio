@@ -11,9 +11,14 @@ const Experience = (props) => {
             <h4>RIA Advisory</h4>
             <h5>FullStak Developer - Consultant</h5>
             <p>
-              Worked as a Full time employee in several project with Angular
-              React, Node and Express
+              Lead Developer in a complex product for a banking client in
+              pricing domain.
             </p>
+            <p>
+              Developed, deployed and delivered a billing portal for a US Real
+              Estate client.
+            </p>
+            <p>Trained and mentored entry level junior developers.</p>
           </div>
           <div>
             <p className={classes.expDt}>Feb, 2019 - Present</p>
@@ -28,8 +33,12 @@ const Experience = (props) => {
               <h4>TIBCO Software</h4>
               <h5>Application Developer - Associate Consultant</h5>
               <p>
-                Worked as a Full time employee in a middleware project with
-                JavaScript, Java and SQL.
+                Developed a complaint operations application for a banking
+                client in Mexico.
+              </p>
+              <p>
+                Worked on migrating product architecture to cloud using AWS and
+                Docker solutions.
               </p>
             </div>
           </div>
