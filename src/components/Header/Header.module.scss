@@ -16,7 +16,8 @@
   }
 
   label {
-    background-color: $primary-color;
+    background-color: transparent;
+    border: 1px solid $primary-color;
     height: 3rem;
     width: 3rem;
     position: fixed;
@@ -102,7 +103,7 @@
     &::after {
       width: 1.5rem;
       height: 2px;
-      background-color: #333;
+      background-color: $primary-color;
       display: inline-block;
     }
 

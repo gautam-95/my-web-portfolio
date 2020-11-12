@@ -20,6 +20,7 @@ import firebase from "../../assets/skill_images/firebase.png";
 import aws from "../../assets/skill_images/aws.png";
 import mern from "../../assets/skill_images/mern.png";
 import mean from "../../assets/skill_images/mean.png";
+import Tooltip from "@material-ui/core/Tooltip";
 
 const Skills = (props) => {
   return (
@@ -28,29 +29,69 @@ const Skills = (props) => {
       <div className={classes.skillsSection}>
         <div className={classes.sectionLeft}>
           <div className={classes.skillsSection}>
-            <img src={html} alt="html" />
-            <img src={css} alt="css" />
-            <img src={js} alt="js" />
-            <img src={ts} alt="ts" />
-            <img src={sass} alt="sass" />
-            <img src={angular} alt="angular" />
-            <img src={rxjs} alt="rxjs" />
-            <img src={react} alt="react" />
-            <img src={redux} alt="redux" />
-            <img src={node} alt="node" />
-            <img src={express} alt="express" />
-            <img src={mongo} alt="mongo" />
-            <img src={firebase} alt="firebase" />
-            <img src={java} alt="java" />
-            <img src={aws} alt="aws" />
-            <img src={docker} alt="docker" />
-            <img src={pcf} alt="pcf" />
-            <img src={materialui} alt="materialui" />
+            <Tooltip title="HTML">
+              <img src={html} alt="html" />
+            </Tooltip>
+            <Tooltip title="CSS">
+              <img src={css} alt="css" />
+            </Tooltip>
+            <Tooltip title="JavaScript">
+              <img src={js} alt="js" />
+            </Tooltip>
+            <Tooltip title="TypeScript">
+              <img src={ts} alt="ts" />
+            </Tooltip>
+            <Tooltip title="SASS">
+              <img src={sass} alt="sass" />
+            </Tooltip>
+            <Tooltip title="Angular">
+              <img src={angular} alt="angular" />
+            </Tooltip>
+            <Tooltip title="RxJs">
+              <img src={rxjs} alt="rxjs" />
+            </Tooltip>
+            <Tooltip title="React">
+              <img src={react} alt="react" />
+            </Tooltip>
+            <Tooltip title="Redux">
+              <img src={redux} alt="redux" />
+            </Tooltip>
+            <Tooltip title="Node.js">
+              <img src={node} alt="node" />
+            </Tooltip>
+            <Tooltip title="Express.js">
+              <img src={express} alt="express" />
+            </Tooltip>
+            <Tooltip title="MongoDB">
+              <img src={mongo} alt="mongo" />
+            </Tooltip>
+            <Tooltip title="Firebase">
+              <img src={firebase} alt="firebase" />
+            </Tooltip>
+            <Tooltip title="Java">
+              <img src={java} alt="java" />
+            </Tooltip>
+            <Tooltip title="AWS">
+              <img src={aws} alt="aws" />
+            </Tooltip>
+            <Tooltip title="Docker">
+              <img src={docker} alt="docker" />
+            </Tooltip>
+            <Tooltip title="Pivotal Cloud Foundry (PCF)">
+              <img src={pcf} alt="pcf" />
+            </Tooltip>
+            <Tooltip title="Material UI">
+              <img src={materialui} alt="materialui" />
+            </Tooltip>
           </div>
         </div>
         <div className={classes.sectionRight}>
-          <img src={mean} alt="mean" />
-          <img src={mern} alt="mern" />
+          <Tooltip title="MEAN Stack">
+            <img src={mean} alt="mean" />
+          </Tooltip>
+          <Tooltip title="MERN Stack">
+            <img src={mern} alt="mern" />
+          </Tooltip>
         </div>
       </div>
     </div>
