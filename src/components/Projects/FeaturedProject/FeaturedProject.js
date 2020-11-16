@@ -1,8 +1,7 @@
 import React from "react";
 import classes from "./FeaturedProject.module.scss";
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LaunchIcon from '@material-ui/icons/Launch';
-
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LaunchIcon from "@material-ui/icons/Launch";
 
 const FeaturedProject = ({ project, idx }) => {
   const rootClasses = [classes.featuredProject];
@@ -24,8 +23,12 @@ const FeaturedProject = ({ project, idx }) => {
           ))}
         </ul>
         <div className={classes.links}>
-            <GitHubIcon className={classes.linkIcon}/>
-            <LaunchIcon className={classes.linkIcon}/>
+          <a href={project.gitLink} target="_blank" rel="noreferrer">
+            <GitHubIcon className={classes.linkIcon} />
+          </a>
+          <a href={project.appLink} target="_blank" rel="noreferrer">
+            <LaunchIcon className={classes.linkIcon} />
+          </a>
         </div>
       </div>
     </div>

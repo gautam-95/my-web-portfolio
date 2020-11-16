@@ -16,7 +16,11 @@ const Profiles = (props) => {
           <div className={classes.myLogo}>GP</div>
         </li>
         <li>
-          <a href="https://github.com/gautam-95" target="_blank">
+          <a
+            href="https://github.com/gautam-95"
+            target="_blank"
+            rel="noreferrer"
+          >
             <GitHubIcon className={classes.profileIcon} />
           </a>
         </li>
@@ -24,6 +28,7 @@ const Profiles = (props) => {
           <a
             href="https://www.linkedin.com/in/gautamraj-puranik-711b3012a/"
             target="_blank"
+            rel="noreferrer"
           >
             <LinkedInIcon className={classes.profileIcon} />
           </a>

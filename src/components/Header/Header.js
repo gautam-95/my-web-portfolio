@@ -1,7 +1,6 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import classes from "./Header.module.scss";
 import { Link } from "react-scroll";
-import MenuIcon from "@material-ui/icons/Menu";
 
 const Header = (props) => {
   const inputEl = useRef(null);
@@ -21,7 +20,7 @@ const Header = (props) => {
         <div className={classes.navigationBackground}>&nbsp;</div>
         <nav>
           <ul>
-          <Link
+            <Link
               activeClass="active"
               to="home"
               spy={true}
