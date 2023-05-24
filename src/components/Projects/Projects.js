@@ -23,7 +23,7 @@ const Projects = (props) => {
         "A seamless and dynamic e-commerce application with Stripe.js integration for secure card payments, offering a comprehensive solution.",
       tech: ["React", "Redux", "Node.js", "Express", "Stripe.js", "MongoDB"],
       gitLink: "https://github.com/gautam-95/baskout-app",
-      appLink: "https://baskout-app-fe.onrender.com/login",
+      appLink: "https://baskout-app-fe.onrender.com",
       image: baskout2,
     },
     {
