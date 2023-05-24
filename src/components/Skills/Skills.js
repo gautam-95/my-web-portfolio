@@ -5,6 +5,7 @@ import css from "../../assets/skill_images/css.png";
 import sass from "../../assets/skill_images/sass.png";
 import js from "../../assets/skill_images/js.png";
 import react from "../../assets/skill_images/react.png";
+import graphql from "../../assets/skill_images/graphql.png";
 import angular from "../../assets/skill_images/angular.png";
 import node from "../../assets/skill_images/node.png";
 import express from "../../assets/skill_images/express.jpg";
@@ -25,7 +26,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 const Skills = (props) => {
   return (
     <div id="skills" className={classes.skills}>
-      <h2 className={classes.title}>Some technologies I've worked on</h2>
+      <h2 className={classes.title}>Technology Exposure</h2>
       <div className={classes.skillsSection}>
         <div className={classes.sectionLeft}>
           <div className={classes.skillsSection}>
@@ -41,20 +42,17 @@ const Skills = (props) => {
             <Tooltip title="TypeScript">
               <img src={ts} alt="ts" />
             </Tooltip>
-            <Tooltip title="SASS">
-              <img src={sass} alt="sass" />
+            <Tooltip title="React">
+              <img src={react} alt="react" />
             </Tooltip>
             <Tooltip title="Angular">
               <img src={angular} alt="angular" />
             </Tooltip>
+            <Tooltip title="GraphQL">
+              <img src={graphql} alt="graphql" />
+            </Tooltip>
             <Tooltip title="RxJs">
               <img src={rxjs} alt="rxjs" />
-            </Tooltip>
-            <Tooltip title="React">
-              <img src={react} alt="react" />
-            </Tooltip>
-            <Tooltip title="Redux">
-              <img src={redux} alt="redux" />
             </Tooltip>
             <Tooltip title="Node.js">
               <img src={node} alt="node" />
@@ -65,20 +63,14 @@ const Skills = (props) => {
             <Tooltip title="MongoDB">
               <img src={mongo} alt="mongo" />
             </Tooltip>
-            <Tooltip title="Firebase">
-              <img src={firebase} alt="firebase" />
-            </Tooltip>
-            <Tooltip title="Java">
-              <img src={java} alt="java" />
+            <Tooltip title="SASS">
+              <img src={sass} alt="sass" />
             </Tooltip>
             <Tooltip title="AWS">
               <img src={aws} alt="aws" />
             </Tooltip>
             <Tooltip title="Docker">
               <img src={docker} alt="docker" />
-            </Tooltip>
-            <Tooltip title="Pivotal Cloud Foundry (PCF)">
-              <img src={pcf} alt="pcf" />
             </Tooltip>
             <Tooltip title="Material UI">
               <img src={materialui} alt="materialui" />

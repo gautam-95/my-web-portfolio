@@ -3,23 +3,33 @@ import FeaturedProject from "./FeaturedProject/FeaturedProject";
 import classes from "./Projects.module.scss";
 import baskout2 from "../../assets/project_images/baskout2.png";
 import spotify1 from "../../assets/project_images/spotify1.png";
+import instachat from "../../assets/project_images/instachat.png";
 import Project from "./Project/Project";
 
 const Projects = (props) => {
   const [featuredProjects] = useState([
     {
+      name: "InstaChat",
+      desc:
+        "A dynamic chat web-app with real-time notifications, group chat support and more. Powered by Web sockets.",
+      tech: ["React", "Socket.io", "Node.js", "Express", "MongoDB"],
+      gitLink: "https://github.com/gautam-95/insta-chat-app",
+      appLink: "https://insta-chat-app.onrender.com/",
+      image: instachat,
+    },
+    {
       name: "baskout",
       desc:
-        "A fully functional and responsive e-commerce application which accepts card payment. Integrated with Stripe.js and built with modern React features, it is a complete solution for an e-commerce application.",
+        "A seamless and dynamic e-commerce application with Stripe.js integration for secure card payments, offering a comprehensive solution.",
       tech: ["React", "Redux", "Node.js", "Express", "Stripe.js", "MongoDB"],
       gitLink: "https://github.com/gautam-95/baskout-app",
-      appLink: "https://baskout-23105.web.app/login",
+      appLink: "https://baskout-app-fe.onrender.com/login",
       image: baskout2,
     },
     {
-      name: "Spotify Profile",
+      name: "Mini Spotify",
       desc:
-        "A web app to view your Spotify playlists and songs. View information about your playlists alongwith detailed information about each track.",
+        "A mini Spotify clone. Connect with your spotify account to view detailed information about your playlists and their tracks.",
       tech: ["React", "Spotify Web API", "React Context API"],
       gitLink: "https://github.com/gautam-95/my-spotify-profile",
       appLink: "https://spotify-profile-7fef8.web.app/",
@@ -31,7 +41,7 @@ const Projects = (props) => {
     {
       name: "E-complaint government app",
       desc:
-        "An Angular application that emerged as the winner in the TIBCO Global Hackathon. A complete solution for a citizen to lodge a complaint to a local body in few clicks.",
+        "Award-winning Angular app that triumphed in the TIBCO Global Hackathon, empowering users to report issues effortlessly.",
       tech: ["Angular", "NgRx", "RxJs"],
       gitLink: null,
       appLink: null,
@@ -56,7 +66,7 @@ const Projects = (props) => {
 
   return (
     <div id="projects" className={classes.projects}>
-      <h2 className={classes.title}>Some personal apps I've built</h2>
+      <h2 className={classes.title}>Personal Apps Portfolio</h2>
       {featuredProjects.map((project, i) => (
         <FeaturedProject key={project.name} project={project} idx={i} />
       ))}

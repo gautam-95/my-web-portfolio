@@ -8,9 +8,9 @@ const Home = (props) => {
       <h1 className={classes.title}>Gautam Puranik.</h1>
       <h2 className={classes.subTitle}>I build and develop for the web.</h2>
       <p className={classes.summary}>
-        I'm a FullStack developer based in Pune, India who specializes in
-        JavaScript technologies across the whole stack (Angular, React, Node.js
-        , Express) and passionate about building web apps.
+        Experienced and slightly JavaScript-obsessed developer with a knack for crafting awesome web experiences.
+        My expertise spans across React, Node.js, GraphQL, and the entire JavaScript ecosystem.
+        With a passion for clean and efficient solutions, I love turning complex problems into elegant applications.
       </p>
       <a href="mailto:gautam.puranik95@gmail.com">
         <button>Get in Touch</button>

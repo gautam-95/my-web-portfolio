@@ -11,11 +11,14 @@ const About = (props) => {
       <div className={classes.sectionRight}>
         <h2>About me</h2>
         <div>
-          <p>Hello! I'm Gautam, a FullStack developer based in Pune, India.</p>
           <p>
-            Amazed by the power of user interfaces and curious to learn web
-            development, I started my career as a Web Developer around 3.5 years
-            back and have grown significantly as a professional.
+            Hey there! I'm Gautam, a Pune (India)-based FullStack developer
+            who's been on an epic coding adventure for the past almost 6 years.
+          </p>
+          <p>
+            Blending a love for user interfaces with a curious and learning
+            mindset, I'm all about crafting efficient, clean, and DRY code while
+            also keeping things simple.
           </p>
           <p>
             I believe in following a simplistic approach with a learning
@@ -23,17 +26,15 @@ const About = (props) => {
             user expererience.
           </p>
           <p>
-            I have been working with a dynamic startup -
-            <span>RIA Advisory</span>
-            {/* <a
-              href="https://www.riaadvisory.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              RIA Advisory
-            </a> */}
-            where I work on a wide range of interesting projects and exciting
-            technologies on a daily basis.
+            When I'm not busy coding, you'll find me exploring new
+            destinations,documenting my travel escapades on my budding travel
+            page. Water is my happy place, so I'm diving into the goal of
+            becoming a certified open water diver this year!
+          </p>
+          <p>
+            Additionally, I have a keen interest in languages. Apart from the 3
+            local languages, I have a beginner's grasp of Spanish and current
+            pursuit of learning German.
           </p>
         </div>
       </div>
@@ -42,5 +43,3 @@ const About = (props) => {
 };
 
 export default About;
-
-// and as a professional and to be Developing web apps is more of a hobby for me as I enjoy seing a visual feedback of my code.
