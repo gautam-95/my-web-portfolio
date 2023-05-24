@@ -24,6 +24,9 @@ const Experience = (props) => {
           </div>
         </div>
         <div className={[classes.row, classes.flAlign2].join(" ")}>
+          <div>
+            <p className={classes.expDt}>Feb, 2019 - Mar, 2021</p>
+          </div>
           <div className={classes.expBlock}>
             <h4>RIA Advisory</h4>
             <h5>FullStak Developer</h5>
@@ -36,14 +39,8 @@ const Experience = (props) => {
               Estate client.
             </p>
           </div>
-          <div>
-            <p className={classes.expDt}>Feb, 2019 - Mar, 2021</p>
-          </div>
         </div>
         <div className={[classes.row, classes.flAlign1].join(" ")}>
-          <div>
-            <p className={classes.expDt}>Jul, 2017 - Feb, 2019</p>
-          </div>
           <div className={[classes.expBlock, classes.flRight].join(" ")}>
             <div>
               <h4>TIBCO Software</h4>
@@ -57,6 +54,9 @@ const Experience = (props) => {
                 Docker solutions.
               </p>
             </div>
+          </div>
+          <div>
+            <p className={classes.expDt}>Jul, 2017 - Feb, 2019</p>
           </div>
         </div>
       </div>
