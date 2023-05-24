@@ -21,13 +21,8 @@ const About = (props) => {
             also keeping things simple.
           </p>
           <p>
-            I believe in following a simplistic approach with a learning
-            attitude and aim to write efficient, clean, DRY code and enhance
-            user expererience.
-          </p>
-          <p>
             When I'm not busy coding, you'll find me exploring new
-            destinations,documenting my travel escapades on my budding travel
+            destinations, documenting my travel escapades on my budding travel
             page. Water is my happy place, so I'm diving into the goal of
             becoming a certified open water diver this year!
           </p>

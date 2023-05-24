@@ -45,6 +45,7 @@
     margin-bottom: 40px;
     border-left: 2px solid $primary-color;
     padding-left: 2%;
+    max-width: 95%;
   }
 
   ul {
@@ -74,7 +75,7 @@
 }
 
 .linkIcon {
-  font-size: 20px;
+  font-size: 32px !important;
   color: $primary-color;
   margin: 30px 10px;
   cursor: pointer;
