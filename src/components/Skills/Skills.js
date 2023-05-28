@@ -11,16 +11,17 @@ import node from "../../assets/skill_images/node.png";
 import express from "../../assets/skill_images/express.jpg";
 import mongo from "../../assets/skill_images/mongo.png";
 import docker from "../../assets/skill_images/docker.png";
-import pcf from "../../assets/skill_images/pcf.png";
 import materialui from "../../assets/skill_images/materialui.png";
-import java from "../../assets/skill_images/java.png";
 import ts from "../../assets/skill_images/ts.png";
 import rxjs from "../../assets/skill_images/rxjs.png";
-import redux from "../../assets/skill_images/redux.png";
-import firebase from "../../assets/skill_images/firebase.png";
 import aws from "../../assets/skill_images/aws.png";
 import mern from "../../assets/skill_images/mern.png";
 import mean from "../../assets/skill_images/mean.png";
+import chatgpt from "../../assets/skill_images/chatgpt.png";
+import grafana from "../../assets/skill_images/grafana.png";
+import k8s from "../../assets/skill_images/k8s.png";
+import prometheus from "../../assets/skill_images/prometheus.png";
+import socketio from "../../assets/skill_images/socketio.png";
 import Tooltip from "@material-ui/core/Tooltip";
 
 const Skills = (props) => {
@@ -51,6 +52,9 @@ const Skills = (props) => {
             <Tooltip title="GraphQL">
               <img src={graphql} alt="graphql" />
             </Tooltip>
+            <Tooltip title="ChatGPT">
+              <img src={chatgpt} alt="chatgpt" />
+            </Tooltip>
             <Tooltip title="RxJs">
               <img src={rxjs} alt="rxjs" />
             </Tooltip>
@@ -66,11 +70,23 @@ const Skills = (props) => {
             <Tooltip title="SASS">
               <img src={sass} alt="sass" />
             </Tooltip>
+            <Tooltip title="Socket.io">
+              <img src={socketio} alt="socket.io" />
+            </Tooltip>
             <Tooltip title="AWS">
               <img src={aws} alt="aws" />
             </Tooltip>
+            <Tooltip title="Grafana">
+              <img src={grafana} alt="grafana" />
+            </Tooltip>
+            <Tooltip title="Prometheus">
+              <img src={prometheus} alt="prometheus" />
+            </Tooltip>
             <Tooltip title="Docker">
               <img src={docker} alt="docker" />
+            </Tooltip>
+            <Tooltip title="Kubernetes">
+              <img src={k8s} alt="kubernetes" />
             </Tooltip>
             <Tooltip title="Material UI">
               <img src={materialui} alt="materialui" />

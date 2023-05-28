@@ -21,15 +21,19 @@ const About = (props) => {
             also keeping things simple.
           </p>
           <p>
-            When I'm not busy coding, you'll find me exploring new
-            destinations, documenting my travel escapades on my budding travel
-            page. Water is my happy place, so I'm diving into the goal of
-            becoming a certified open water diver this year!
+            When I'm not busy coding, you'll find me exploring new destinations,
+            documenting my travel escapades on my budding travel page. Water is
+            my happy place, so I'm diving into the goal of becoming a certified
+            open water diver this year!
           </p>
           <p>
-            Additionally, I have a keen interest in languages. Apart from the 3
-            local languages, I have a beginner's grasp of Spanish and current
-            pursuit of learning German.
+            I find joy in exploring Mythology, practicing Yoga, Dancing, playing
+            Cricket, Swimming, and indulging in Reading.
+          </p>
+          <p>
+            Additionally, I also have a keen interest in languages. Apart from
+            the 3 local languages, I have a beginner's grasp of Spanish and
+            current pursuit of learning German.
           </p>
         </div>
       </div>

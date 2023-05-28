@@ -11,12 +11,17 @@ const Experience = (props) => {
             <h4>AlphaSense</h4>
             <h5>Senior Software Engineer</h5>
             <p>
-              Led end-to-end creation and delivery of a robust feature-rich
-              dashboard module from inception with a recent major upgrade.
+              Led full lifecycle development and delivery of a feature-rich,
+              widget-based dashboard module using React and GraphQL, including
+              recent major upgrade.
             </p>
             <p>
               Designed and developed a sub-system for real-time notifications
               using AWS architecture
+            </p>
+            <p>
+              Implemented completely automated self-monitoring and alerts system
+              using Grafana and Prometheus metrics.
             </p>
           </div>
           <div>
@@ -31,12 +36,17 @@ const Experience = (props) => {
             <h4>RIA Advisory</h4>
             <h5>FullStak Developer</h5>
             <p>
-              Lead Developer in a complex rules engine product for a banking
-              client in finance domain.
+              Successfully built and integrated the frontend of a billing portal
+              using Angular, and seamlessly incorporated the Stripe.js payment
+              platform for secure payment transactions.
             </p>
             <p>
-              Developed, deployed and delivered a billing portal for a US Real
-              Estate client.
+              Volunteered to research and implement the project as a
+              Micro-Frontend leveraging single-spa framework.
+            </p>
+            <p>
+              Volunteered to develop 3 in-house apps (Timesheet, Employee
+              onboarding and Leave application) used globally by the employees.
             </p>
           </div>
         </div>
@@ -46,12 +56,13 @@ const Experience = (props) => {
               <h4>TIBCO Software</h4>
               <h5>Application Developer</h5>
               <p>
-                Developed a complaint operations application for a major banking
-                client in Mexico.
+                Developed a JavaScript-based solution for a bank in Mexico,
+                collaborating with cross-functional teams and engaging in
+                regular client interactions.
               </p>
               <p>
-                Worked on migrating product architecture to cloud using AWS and
-                Docker solutions.
+                Triumphed in the TIBCO Global Hackathon with an integrated
+                Angular app for citizens and local governance.
               </p>
             </div>
           </div>
