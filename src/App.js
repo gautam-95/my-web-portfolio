@@ -11,7 +11,7 @@ import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <div className={classes.app}>
-      <div className={classes.bgImg}>
+      <div>
         <Header />
         <div className={classes.profilesDesktop}>
           <Profiles />
