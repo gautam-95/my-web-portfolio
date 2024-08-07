@@ -11,17 +11,18 @@ const Experience = (props) => {
             <h4>AlphaSense</h4>
             <h5>Senior Software Engineer</h5>
             <p>
-              Led full lifecycle development and delivery of a feature-rich,
-              widget-based dashboard module using React and GraphQL, including
-              recent major upgrade.
+              Spearheaded the full architecture, design and development of a
+              feature-rich widget-based dashboard module using React and GraphQL,
+              including a recent major upgrade.
             </p>
             <p>
-              Designed and developed a sub-system for real-time notifications
-              using AWS architecture
+              Orchestrated two major feature additions from scratch which improved
+              the user engagement by around 40%.
             </p>
             <p>
-              Implemented completely automated self-monitoring and alerts system
-              using Grafana and Prometheus metrics.
+              Accomplished 50% increase in performance by implementing caching
+              techniques, efficient schema design and optimizing code execution,
+              along-with setting up an auto self-monitoring system.
             </p>
           </div>
           <div>
@@ -36,17 +37,17 @@ const Experience = (props) => {
             <h4>RIA Advisory</h4>
             <h5>FullStak Developer</h5>
             <p>
-              Successfully built and integrated the frontend of a billing portal
-              using Angular, and seamlessly incorporated the Stripe.js payment
-              platform for secure payment transactions.
+              Proactively researched and implemented a Micro-Frontend project
+              leveraging the single-spa framework.
             </p>
             <p>
-              Volunteered to research and implement the project as a
-              Micro-Frontend leveraging single-spa framework.
+              Independently developed the complete frontend app for a billing portal
+              for a US real estate client, and seamlessly integrated the
+              Stripe.js payment platform to facilitate payments.
             </p>
             <p>
-              Volunteered to develop 3 in-house apps (Timesheet, Employee
-              onboarding and Leave application) used globally by the employees.
+              Volunteered to build inhouse apps like Timesheet, leave application
+              which is being used by global employees.
             </p>
           </div>
         </div>
@@ -56,13 +57,12 @@ const Experience = (props) => {
               <h4>TIBCO Software</h4>
               <h5>Application Developer</h5>
               <p>
-                Developed a JavaScript-based solution for a bank in Mexico,
-                collaborating with cross-functional teams and engaging in
-                regular client interactions.
+               Engineered a JavaScript-based business process for a Mexican bank,
+               collaborating across functions and clients.
               </p>
               <p>
-                Triumphed in the TIBCO Global Hackathon with an integrated
-                Angular app for citizens and local governance.
+                Triumphed in the TIBCO Global Hackathon with an integrated Angular
+                app for citizens and local governance..
               </p>
             </div>
           </div>
