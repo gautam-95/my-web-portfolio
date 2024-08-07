@@ -62,7 +62,7 @@ const Experience = (props) => {
               </p>
               <p>
                 Triumphed in the TIBCO Global Hackathon with an integrated Angular
-                app for citizens and local governance..
+                app for citizens and local governance.
               </p>
             </div>
           </div>
